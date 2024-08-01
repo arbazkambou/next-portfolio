@@ -6,7 +6,7 @@ import { Badge } from "./ui/badge";
 
 function ProjectCard({ project }) {
   return (
-    <Card className="group overflow-hidden relative shadow-lg h-[30rem]">
+    <Card className="group overflow-hidden relative shadow-lg h-[33rem]">
       {/* image */}
       <CardHeader className="p-0">
         <div className="relative w-full h-[300px] flex items-center bg-tertiary justify-center dark:bg-secondary/40 xl:bg-work_project_bg_light xl:dark:bg-work_project_bg_dark xl:bg-[110%] xl:bg-no-repeat overflow-hidden">

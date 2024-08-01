@@ -56,7 +56,7 @@ const projectsData = [
     name: "BudgetWise",
     description:
       "Budgeting with React Router is a React application that helps users manage their budgets effectively.",
-    link: "https://github.com/arbazkambou/react-router-budgeting",
+    link: "https://react-router-budgeting-app.vercel.app/",
     github: "https://github.com/arbazkambou/react-router-budgeting",
   },
   {

@@ -150,7 +150,7 @@ function Work() {
         <div className="xl:max-w-[1000px] xl:absolute right-0 top-0">
           {/* show only the first 4 projects */}
           <Swiper
-            className="h-[580px] xl:h-[500px] "
+            className="h-[580px] xl:h-[580px] "
             slidesPerView={1}
             breakpoints={{
               640: {
