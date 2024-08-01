@@ -10,6 +10,8 @@ import {
   Briefcase,
   PhoneCall,
   Home,
+  Dot,
+  CircleArrowRight,
 } from "lucide-react";
 
 const infoData = [
@@ -67,16 +69,16 @@ const skillsData = [
     title: "Skills",
     data: [
       {
-        name: "HTML, CSS, JavaScript, React, Tailwind, Shadcn, Bootstrap",
-      },
-      {
         name: "Frontend Development",
       },
       {
-        name: "Next.js, Node.js, Express, Mongodb, Mongoose, Supabase",
+        name: "HTML, CSS, JavaScript, React, Tailwind, Shadcn, Bootstrap",
       },
       {
         name: "Backend Development",
+      },
+      {
+        name: "Next.js, Node.js, Express, Mongodb, Mongoose, Supabase",
       },
     ],
   },
@@ -249,13 +251,21 @@ function About() {
                                   className={`font-medium ${
                                     (name === "Frontend Development" ||
                                       name === "Backend Development") &&
-                                    "font-semibold mt-4"
+                                    "font-extrabold text-lg"
                                   }`}
                                 >
                                   {name === "Frontend Development" ||
-                                  name === "Backend Development"
-                                    ? `👆 ${name}`
-                                    : name}
+                                  name === "Backend Development" ? (
+                                    <span className="flex gap-2 items-center">
+                                      <CircleArrowRight
+                                        size={20}
+                                        className="text-primary"
+                                      />{" "}
+                                      {name}
+                                    </span>
+                                  ) : (
+                                    name
+                                  )}
                                 </span>
                               </div>
                             );

@@ -16,7 +16,7 @@ function MobileNav() {
             <Logo />
             <Nav
               containerStyles={"flex flex-col items-center gap-y-12"}
-              linkStyles={"text-2xl"}
+              linkStyles={"text-2xl hover:text-primary "}
             />
           </div>
           <Socials
