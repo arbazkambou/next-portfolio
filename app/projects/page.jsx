@@ -119,8 +119,8 @@ const projectsData = [
     name: "Personal Portolio",
     description:
       "A sleek and responsive portfolio website built with Next.js, Tailwind CSS, ShadCN UI and Framer Motion.",
-    link: "https://far-away-flax-rho.vercel.app/",
-    github: "https://github.com/arbazkambou/far-away",
+    link: "https://arbaz-shoukat.vercel.app/",
+    github: "https://github.com/arbazkambou/next-portfolio",
   },
 ];
 
