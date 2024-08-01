@@ -32,7 +32,7 @@ function Form() {
       <div>
         <Link href={"#"}>
           <Button className="flex items-center gap-x-1 max-w-[166px]">
-            Let's Talk <ArrowRightIcon />
+            Let&apos;s Talk <ArrowRightIcon />
           </Button>
         </Link>
       </div>

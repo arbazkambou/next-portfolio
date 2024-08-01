@@ -1,3 +1,5 @@
+const { Briefcase } = require("lucide-react");
+
 <div className="flex flex-col gap-y-8">
   <div className="flex gap-x-4 items-center text-[22px] text-primary">
     <div>
