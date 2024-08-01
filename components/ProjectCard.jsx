@@ -5,7 +5,6 @@ import { Github, Link2Icon } from "lucide-react";
 import { Badge } from "./ui/badge";
 
 function ProjectCard({ project }) {
-  console.log(project.category);
   return (
     <Card className="group overflow-hidden relative shadow-lg h-[30rem]">
       {/* image */}

@@ -25,7 +25,7 @@ const projectsData = [
     github: "https://github.com/arbazkambou/natours",
   },
   {
-    image: "/work/oasis-customer.png",
+    image: "/work/oasis-cutomer.png",
     category: "Next.js",
     name: "Wild Oasis Reservations",
     description:
