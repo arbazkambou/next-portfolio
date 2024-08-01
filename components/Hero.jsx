@@ -35,7 +35,10 @@ function Hero() {
                   Contact me <Send size={18} />
                 </Button>
               </Link>
-              <Button className="gap-x-2 bg-gray-800 hover:bg-gray-700">
+              <Button
+                variant={"outline"}
+                className="gap-x-2 bg-secondary text-white dark:bg-accent"
+              >
                 Download CV <Download size={18} />
               </Button>
             </div>
