@@ -35,12 +35,14 @@ function Hero() {
                   Contact me <Send size={18} />
                 </Button>
               </Link>
-              <Button
-                variant={"outline"}
-                className="gap-x-2 bg-secondary text-white dark:bg-accent"
-              >
-                Download CV <Download size={18} />
-              </Button>
+              <a href={"/cv.pdf"} download={"cv"}>
+                <Button
+                  variant={"outline"}
+                  className="gap-x-2 bg-secondary text-white dark:bg-accent"
+                >
+                  Download CV <Download size={18} />
+                </Button>
+              </a>
             </div>
             <Socials
               containerStyles={"flex gap-6 mx-auto xl:mx-0"}
