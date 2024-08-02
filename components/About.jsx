@@ -256,10 +256,10 @@ function About() {
                                 >
                                   {name === "Frontend Development" ||
                                   name === "Backend Development" ? (
-                                    <span className="flex gap-2 items-center">
+                                    <span className="flex gap-2 items-center font-extrabold text-lg">
                                       <CircleArrowRight
                                         size={20}
-                                        className="text-primary"
+                                        className="text-primary "
                                       />{" "}
                                       {name}
                                     </span>
