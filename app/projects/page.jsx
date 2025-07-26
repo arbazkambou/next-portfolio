@@ -25,6 +25,15 @@ const projectsData = [
     github: "https://github.com/arbazkambou/natours",
   },
   {
+    image: "/work/renu-market.png",
+    category: "MERN",
+    name: "Arbaz Share Marketplace",
+    description:
+      "A full-stack MERN marketplace app where sellers list products, buyers can purchase or place bids, and admins manage users and listings. Inspired by OLX Pakistan.",
+    link: "https://arbaz-smp-frontend.vercel.app/",
+    github: "https://github.com/arbazkambou/arbaz_smp_backend",
+  },
+  {
     image: "/work/oasis-cutomer.png",
     category: "Next.js",
     name: "Wild Oasis Reservations",
@@ -32,6 +41,51 @@ const projectsData = [
       "Wild Oasis Reservation is built with Next.js. It is a customer-facing website where users can reserve cabins for specific days.",
     link: "https://the-wild-oasis-customer-facing.vercel.app/",
     github: "https://github.com/arbazkambou/the-wild-oasis-customer-facing",
+  },
+  {
+    image: "/work/threads.png",
+    category: "MERN",
+    name: "Threads App",
+    description:
+      "A full-stack social media clone inspired by Meta Threads. Built with Next.js (v14+), MongoDB, and Clerk/Tailwind UI, featuring user authentication, creating threads, commenting with nested replies, searching users, activity notifications and responsive UX.",
+    link: "https://threads-app-blush-two.vercel.app/",
+    github: "https://github.com/arbazkambou/threads-app",
+  },
+  {
+    image: "/work/esimcard.png",
+    category: "Next.js",
+    name: "eSIM Card",
+    description:
+      "SEO-optimized frontend for a global eSIM platform offering data-only and Data+Voice+SMS plans across 200+ countries. Built with Next.js and integrated APIs for purchasing local, regional, and global eSIMs.",
+    link: "https://esimcard.com/",
+    github: "https://github.com/Codiea/esimcard-next",
+  },
+  {
+    image: "/work/phonico.png",
+    category: "Next.js",
+    name: "Phonico",
+    description:
+      "Frontend for a USA-focused eSIM platform offering prepaid plans with unlimited calls, texts, and affordable data. Built with Next.js and integrated with APIs for purchase and activation.",
+    link: "https://phonico.com/",
+    github: "https://github.com/Codiea/phonico-next",
+  },
+  {
+    image: "/work/ultimateMobile.png",
+    category: "Next.js",
+    name: "Ultimate Mobile",
+    description:
+      "Frontend for a USA eSIM service offering prepaid data with unlimited talk & text. Built with Next.js, featuring fast activation, 5G support, and seamless API integration.",
+    link: "https://ultimatemobile.com/",
+    github: "https://github.com/Codiea/ultimatemobile-next",
+  },
+  {
+    image: "/work/ultimateMobile.png",
+    category: "Next.js",
+    name: "Defy Mobile",
+    description:
+      "Frontend for an international travel eSIM platform offering local, regional, and global plans. Built with Next.js and integrated APIs for instant activation and smooth user experience.",
+    link: "https://defymobile.com/",
+    github: "https://github.com/Codiea/esimcard-whitelabel-next-app-routing",
   },
   {
     image: "/work/worldwise.png",
