@@ -29,7 +29,7 @@ const servicesData = [
 ];
 function Services() {
   return (
-    <section className="mt-[16rem] sm:mt-[14rem] xl:mt-[6rem]">
+    <section className="mt-[24rem] sm:mt-[14rem] xl:mt-[6rem]">
       <div className="container mx-auto">
         <h2 className="section-title xl:mb-24 mb-16 text-center mx-auto">
           My Services
