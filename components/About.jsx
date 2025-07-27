@@ -72,13 +72,13 @@ const skillsData = [
         name: "Frontend Development",
       },
       {
-        name: "HTML, CSS, JavaScript, React, Tailwind, Shadcn, Bootstrap",
+        name: "JavaScript, TypeScript, React, Next.js, Tailwind, Shadcn, Bootstrap",
       },
       {
         name: "Backend Development",
       },
       {
-        name: "Next.js, Node.js, Express, Mongodb, Mongoose, Supabase",
+        name: "Node.js, Express, Mongodb, Mongoose, Supabase, Primsa, Firebase",
       },
     ],
   },
