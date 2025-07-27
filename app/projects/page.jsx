@@ -79,7 +79,7 @@ const projectsData = [
     github: "https://github.com/Codiea/ultimatemobile-next",
   },
   {
-    image: "/work/defyMobile.png",
+    image: "/work/defymobile.png",
     category: "Next.js",
     name: "Defy Mobile",
     description:
